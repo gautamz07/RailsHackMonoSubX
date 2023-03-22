@@ -1,0 +1,10 @@
+
+.bundle/
+log/*.log
+pkg/
+
+tmp/
+node_modules/
+public/saddlebag-packs/
+
+
