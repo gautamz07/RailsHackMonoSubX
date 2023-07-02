@@ -28,3 +28,8 @@
 
 - Basically this code only talks about status codes - not much coding.
 
+### Tutorial 5 - Rails validations
+
+- We modify code in `app/models/book.rb`
+- More on the subject --> https://guides.rubyonrails.org/active_record_validations.html
+
