@@ -40,3 +40,8 @@
 ### Tutorial 7 - exception handling [ rescue_from ]
 - Use rescue_from for specific ActiveRecord errors `ActiveRecord::RecordNotFound`.
 - more info [HERE](https://edgeapi.rubyonrails.org/classes/ActiveSupport/Rescuable/ClassMethods.html)
+
+### Tutorial 8 - namespace + versioning
+- adding module api + v1 at the beignnning - `app/controllers/api/v1/books_controller.rb`.
+- adding namespace here - `config/routes.rb`.
+- basically we changed the path from `localhost:3000/books` to `localhost:3000/api/v1/books`.
