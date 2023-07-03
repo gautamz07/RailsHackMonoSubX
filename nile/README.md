@@ -33,3 +33,10 @@
 - We modify code in `app/models/book.rb`
 - More on the subject --> https://guides.rubyonrails.org/active_record_validations.html
 
+### Tutorial 6 - Destroy route [ DELETE ]
+- Add destroy method in `app/controllers/books_controller.rb`
+- Add route in `config/routes.rb`
+
+### Tutorial 7 - exception handling [ rescue_from ]
+- Use rescue_from for specific ActiveRecord errors `ActiveRecord::RecordNotFound`.
+- more info [HERE](https://edgeapi.rubyonrails.org/classes/ActiveSupport/Rescuable/ClassMethods.html)
